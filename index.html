@@ -4,49 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador HTML5</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>
             Proyecto Integrador
         </h1>
+    </header>
+    <nav>
         <h2>
             Navegación:
         </h2>
-        <p>
+        <section id="links" class="links">
             <a href="#inicio">Inicio</a>
             <a href="#tarjetas">Tarjetas</a>
             <a href="#informacion">Información de contacto</a>
             <a href="https://www.youtube.com">Youtube</a>
-        </p>
-    </header>
-    <section id="inicio">
-        <h2>Este proyecto integrador reúne los principales elementos de HTML5, mostrando una estructura básica que será ampliada y mejorada durante el desarrollo del curso</h2>
-    </section>
-    <section id="tarjetas">
-        <h2>Tarjetas</h2>
-        <article id="manzana">
-            <img src="resources/apple.jpg" alt="Manzana roja" style="width: 50%">
-            <div>
+        </section>
+    </nav>
+    <main>
+        <section id="inicio" style="text-align: center">
+            <h2>Este proyecto integrador reúne los principales elementos de HTML5, mostrando una estructura básica que será ampliada y mejorada durante el desarrollo del curso</h2>
+            <h2>Tarjetas</h2>
+        </section>
+        <section id="tarjetas" class="container">
+            <article class="card">
+                <img src="resources/apple.jpg" alt="Manzana roja">
                 <h2>Manzana</h2>
-                <p>La manzana es un fruto acorazonado, de color rojo con tonos verdes, consistente y jugosa. Al igual que el melocotón, esta pertenece a la familia Rosaceae. Es una especie de hábito arbóreo, de  tipo perenne, que también necesita de horas específicas de frío para que la planta pueda completar su ciclo productivo</p>
-            </div>
-        </article>
-        <article id="banano">
-            <img src="resources/banano.jpeg" alt="Bananos" style="width: 50%">
-            <div>
+                    <div>
+                        <p>La manzana es un fruto acorazonado, de color rojo con tonos verdes, consistente y jugosa. Al igual que el melocotón, esta pertenece a la familia Rosaceae. Es una especie de hábito arbóreo, de  tipo perenne, que también necesita de horas específicas de frío para que la planta pueda completar su ciclo productivo</p>
+                    </div>
+            </article>
+            <article class="card">
+                <img src="resources/banano.jpeg" alt="Bananos">
                 <h2>Banano</h2>
-                <p>La plantación de banano es un proceso agrícola que involucra el cultivo de una de las frutas más consumidas en el mundo, especialmente en regiones tropicales y subtropicales. Su proceso inicia con la preparación del terreno, que debe tener suelos fértiles, buen drenaje y acceso a agua abundante. Las plántulas de banano, se siembran en filas con suficiente espacio para crecer. Requieren un clima cálido, con temperaturas entre 25 y 30 grados Celsius, y una humedad constante para asegurar un desarrollo óptimo de las plantas.</p>
-            </div>
-        </article>
-        <article id="sandia">
-            <img src="resources/sandia.jpeg" alt="Sandia" style="width: 50%">
-            <div>
+                <div>
+                    <p>La plantación de banano es un proceso agrícola que involucra el cultivo de una de las frutas más consumidas en el mundo, especialmente en regiones tropicales y subtropicales. Su proceso inicia con la preparación del terreno, que debe tener suelos fértiles, buen drenaje y acceso a agua abundante. Las plántulas de banano, se siembran en filas con suficiente espacio para crecer. Requieren un clima cálido, con temperaturas entre 25 y 30 grados Celsius, y una humedad constante para asegurar un desarrollo óptimo de las plantas.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="resources/sandia.jpeg" alt="Sandia">
                 <h2>Sandía</h2>
-                <p>El cultivo de la sandía es una actividad agrícola significativa, especialmente en las regiones cálidas como la costa sur, ya que las condiciones climáticas son ideales para su producción. La sandía es altamente valorada tanto para el consumo interno como para la exportación. Este cultivo requiere de suelos bien drenados, temperaturas elevadas y una adecuada disponibilidad de agua, factores que contribuyen al desarrollo de frutos de alta calidad.</p>
-            </div>
-        </article>
-    </section>
+                <div>
+                    <p>El cultivo de la sandía es una actividad agrícola significativa, especialmente en las regiones cálidas como la costa sur, ya que las condiciones climáticas son ideales para su producción. La sandía es altamente valorada tanto para el consumo interno como para la exportación. Este cultivo requiere de suelos bien drenados, temperaturas elevadas y una adecuada disponibilidad de agua, factores que contribuyen al desarrollo de frutos de alta calidad.</p>
+                </div>
+            </article>
+        </section>
+    </main>
 <footer id="informacion">
     <h2>Información de contacto:</h2>
     <p>Correo Electrónico: klopezp40@miumg.edu.gt</p>
